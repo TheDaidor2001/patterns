@@ -10,7 +10,8 @@
     "noEmitOnError": true,
     "removeComments": false,
     "sourceMap": true,
-    "target": "es5",
+    "target": "ES6",
+    "module": "commonjs",
     "outDir": "dist"
   }
 }
