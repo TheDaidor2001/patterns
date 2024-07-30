@@ -11,6 +11,7 @@
     "build:all": "npm run build:client && npm run build:server",
     "start:client": "cd client && npm start",
     "start:server": "cd server && npm start",
+    "start": "npm run start:server",
     "start:all": "concurrently \"npm run start:client\" \"npm run start:server\"",
     "lint:client": "eslint \"client/src/**/*.{js,jsx,ts,tsx}\" --config .eslintrc.client.js",
     "lint:server": "eslint \"server/src/**/*.{js,ts}\" --config .eslintrc.server.js",
